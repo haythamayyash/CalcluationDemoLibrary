@@ -7,10 +7,11 @@ import android.widget.Toast
 
 class MainActivity : AppCompatActivity() {
 
+    // edit 1 from origin
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-       Toast.makeText(this, "${Calculation.add(4, 8)}" ,Toast.LENGTH_LONG).show()
-        Log.v("kk","kk")
+        Toast.makeText(this, "${Calculation.add(4, 8)}", Toast.LENGTH_LONG).show()
+        Log.v("kk", "kk")
     }
 }
